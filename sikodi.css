@@ -25,28 +25,6 @@ body {
   background: #161d31 !important;
 }
 
-.vertical-layout .main-menu .navigation a.active {
-  border-top-right-radius: 50px;
-  border-bottom-right-radius: 50px;
-  margin-left: 0;
-  padding-left: 30px;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-}
-
-.main-menu .navigation > li ul .active {
-  border-top-right-radius: 50px;
-  border-bottom-right-radius: 50px;
-  margin-left: 0;
-  padding-left: 45px;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-}
-
-.navigation li a svg {
-  margin-right: 1rem;
-}
-
 .dark-layout .main-menu .shadow-bottom {
   background: linear-gradient(180deg, #161d31 44%, rgb(22 29 49 / 51%) 73%, rgb(22 29 49 / 0%));
 }
