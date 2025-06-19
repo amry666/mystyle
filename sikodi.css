@@ -1,0 +1,39 @@
+body {
+  font-family: "Noto Sans", sans-serif !important;
+}
+
+.navigation,
+.header-navbar {
+  font-family: inherit;
+}
+
+.main-menu {
+  background: #f6f6f6 !important;
+  box-shadow: none !important;
+}
+
+.navigation {
+  background: #f6f6f6 !important;
+}
+
+.dark-layout .main-menu {
+  background: #161d31 !important;
+  box-shadow: none !important;
+}
+
+.dark-layout .navigation {
+  background: #161d31 !important;
+}
+
+.vertical-layout .main-menu .navigation a.active {
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  margin-left: 0;
+  padding-left: 30px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.navigation li a svg {
+  margin-right: 1rem;
+}
