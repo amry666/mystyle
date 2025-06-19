@@ -8,12 +8,12 @@ body {
 }
 
 .main-menu {
-  background: #f6f6f6 !important;
+  background: #f8f8f8 !important;
   box-shadow: none !important;
 }
 
 .navigation {
-  background: #f6f6f6 !important;
+  background: #f8f8f8 !important;
 }
 
 .dark-layout .main-menu {
@@ -22,7 +22,7 @@ body {
 }
 
 .dark-layout .navigation {
-  background: #161d31 !important;
+  background: #f8f8f8 !important;
 }
 
 .vertical-layout .main-menu .navigation a.active {
@@ -39,11 +39,15 @@ body {
 }
 
 .dark-layout .main-menu .shadow-bottom
-Specificity: (0,3,0)
  {
     background: linear-gradient(180deg, #161d31 44%, rgb(22 29 49 / 51%) 73%, rgb(22 29 49 / 0%));
 }
 
 .dark-layout .main-menu-content .navigation-main .sidebar-group-active .menu-content {
     background-color: #161d31;
+}
+
+.header-navbar.navbar-shadow {
+    box-shadow: none;
+    background: #f8f8f8;
 }
