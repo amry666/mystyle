@@ -43,3 +43,7 @@ Specificity: (0,3,0)
  {
     background: linear-gradient(180deg, #161d31 44%, rgb(22 29 49 / 51%) 73%, rgb(22 29 49 / 0%));
 }
+
+.dark-layout .main-menu-content .navigation-main .sidebar-group-active .menu-content {
+    background-color: #161d31;
+}
