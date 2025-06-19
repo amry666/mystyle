@@ -37,3 +37,9 @@ body {
 .navigation li a svg {
   margin-right: 1rem;
 }
+
+.dark-layout .main-menu .shadow-bottom
+Specificity: (0,3,0)
+ {
+    background: linear-gradient(180deg, #161d31 44%, rgb(22 29 49 / 51%) 73%, rgb(22 29 49 / 0%));
+}
