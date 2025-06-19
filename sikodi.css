@@ -50,3 +50,8 @@ body {
     box-shadow: none;
     background: #f8f8f8;
 }
+
+.dark-layout .header-navbar.navbar-shadow {
+    box-shadow: none;
+    background: #161d31;
+}
