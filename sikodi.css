@@ -34,6 +34,15 @@ body {
   border-bottom-left-radius: 0;
 }
 
+.main-menu .navigation > li ul .active {
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  margin-left: 0;
+  padding-left: 45px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
 .navigation li a svg {
   margin-right: 1rem;
 }
