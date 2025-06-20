@@ -36,13 +36,3 @@ body {
 .dark-layout .main-menu-content .navigation-main .sidebar-group-active .menu-content {
     background-color: #161d31;
 }
-
-.header-navbar.navbar-shadow {
-    box-shadow: none;
-    background: #f8f8f8;
-}
-
-.dark-layout .header-navbar.navbar-shadow {
-    box-shadow: none;
-    background: #161d31;
-}
