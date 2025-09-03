@@ -6,7 +6,6 @@ html .content .content-wrapper .content-header-title {
   color: var(--bs-body-color);
 }
 
-////TABLE
 .react-dataTable .rdt_TableBody .rdt_TableRow {
   color: var(--bs-body-color);
 }
@@ -51,12 +50,11 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 .main-menu.menu-light .navigation > li.sidebar-group-active > a {
   color: #101010;
 }
-/////MENU - SEPARATOR
+
 .main-menu.menu-light .navigation .navigation-header {
   color: #3c3c3c;
 }
 
-// FORM INPUT
 .form-control {
   color: var(--bs-body-color);
 }
