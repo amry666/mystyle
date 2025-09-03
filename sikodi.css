@@ -1,3 +1,75 @@
+:root {
+  --bs-body-color: #000000;
+}
+
+html .content .content-wrapper .content-header-title {
+  color: var(--bs-body-color);
+}
+
+////TABLE
+.react-dataTable .rdt_TableBody .rdt_TableRow {
+  color: var(--bs-body-color);
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    color: var(--bs-body-color);
+}
+
+.react-dataTable
+  .rdt_TableHead
+  .rdt_TableHeadRow
+  .rdt_TableCol
+  .rdt_TableCol_Sortable {
+  color: var(--bs-body-color);
+}
+
+.dark-layout {
+  .react-dataTable .rdt_TableBody .rdt_TableRow {
+    color: inherit;
+  }
+  .react-dataTable
+    .rdt_TableHead
+    .rdt_TableHeadRow
+    .rdt_TableCol
+    .rdt_TableCol_Sortable {
+    color: inherit;
+  }
+}
+
+.main-menu.menu-light .navigation > li ul li {
+  color: var(--bs-body-color);
+}
+.main-menu.menu-light .navigation li a {
+  color: var(--bs-body-color);
+}
+.main-menu.menu-light .navigation > li ul .open > a,
+.main-menu.menu-light .navigation > li ul .sidebar-group-active > a {
+  color: var(--bs-body-color);
+}
+
+.main-menu.menu-light .navigation > li.open:not(.menu-item-closing) > a,
+.main-menu.menu-light .navigation > li.sidebar-group-active > a {
+  color: #101010;
+}
+/////MENU - SEPARATOR
+.main-menu.menu-light .navigation .navigation-header {
+  color: #3c3c3c;
+}
+
+// FORM INPUT
+.form-control {
+  color: var(--bs-body-color);
+}
+
+.form-label {
+  color: #565656;
+}
+
+.select__control .select__single-value,
+.react-select__control .select__single-value {
+  color: var(--bs-body-color);
+}
+
 body {
   font-family: "Roboto", sans-serif !important;
 }
