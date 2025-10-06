@@ -1,5 +1,6 @@
 :root {
   --bs-body-color: #000000;
+  --bs-secondary-rgb: #6E6B7B;
 }
 
 html .content .content-wrapper .content-header-title {
